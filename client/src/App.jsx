@@ -7,14 +7,14 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 export default function App() {
   return (
     <BrowserRouter>
-      <>
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100svh' }}>
         <LanguageSwitcher />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lobby/:roomCode" element={<Lobby />} />
           <Route path="/game/:roomCode" element={<Game />} />
         </Routes>
-      </>
+      </div>
     </BrowserRouter>
   );
 }

@@ -73,9 +73,8 @@
     "hasnt": "jamais",
     "fingers": "doigts",
     "next": "Énoncé suivant",
-    "waitingNext": "En attente que {{name}} continue…",
-    "players": "Joueurs",
-    "out": "éliminé·e"
+    "currentPlayer": "Joueur actuel",
+    "players": "Joueurs"
   },
   "lang": {
     "switchTo": "EN"

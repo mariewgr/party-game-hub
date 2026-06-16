@@ -73,9 +73,8 @@
     "hasnt": "hasn't",
     "fingers": "fingers",
     "next": "Next statement",
-    "waitingNext": "Waiting for {{name}} to continue…",
-    "players": "Players",
-    "out": "out"
+    "currentPlayer": "Current player",
+    "players": "Players"
   },
   "lang": {
     "switchTo": "FR"
