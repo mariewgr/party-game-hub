@@ -9,9 +9,9 @@ const TYPE_COLORS = {
   challenge: { bg: '#f5f3ff', border: '#8b5cf6', badge: '#8b5cf6' },
 };
 
-export default function Picolo() {
+export default function Picolo({ initialState }) {
   const { t, i18n } = useTranslation();
-  const [card, setCard] = useState(null);
+  const [card, setCard] = useState(initialState ?? null);
   const [animKey, setAnimKey] = useState(0);
 
   useEffect(() => {
@@ -75,7 +75,7 @@ export default function Picolo() {
             display: 'flex',
             alignItems: 'center',
           }}>
-            {card.text}
+            {card[i18n.language] ?? card.en}
           </p>
         </div>
       )}

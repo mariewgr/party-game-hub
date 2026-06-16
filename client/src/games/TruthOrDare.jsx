@@ -2,9 +2,11 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import socket from '../socket';
 
-export default function TruthOrDare({ players }) {
+export default function TruthOrDare({ players, initialState }) {
   const { t, i18n } = useTranslation();
-  const [tod, setTod] = useState(null);
+  const [tod, setTod] = useState(
+    initialState ? { phase: 'turn', currentPlayer: initialState.currentPlayer } : null
+  );
 
   useEffect(() => {
     socket.on('tod:turn', ({ currentPlayer }) => {
@@ -59,7 +61,7 @@ export default function TruthOrDare({ players }) {
             </p>
             <span style={badgeStyle(tod.choice)}>{t('tod.' + tod.choice)}</span>
             <p style={{ fontSize: 22, fontWeight: 500, margin: '16px 0 32px', lineHeight: 1.4 }}>
-              {tod.prompt}
+              {tod.prompt[i18n.language] ?? tod.prompt.en}
             </p>
             <button onClick={next} style={btnStyle('#555')}>
               {t('tod.next')}
