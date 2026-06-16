@@ -1,0 +1,83 @@
+{
+  "appTitle": "Party Game Hub",
+  "yourName": "Votre nom",
+  "createRoom": {
+    "heading": "Créer une salle",
+    "button": "Créer la salle"
+  },
+  "joinRoom": {
+    "heading": "Rejoindre une salle",
+    "roomCode": "Code de la salle",
+    "button": "Rejoindre"
+  },
+  "errors": {
+    "enterName": "Entrez votre nom",
+    "enterRoomCode": "Entrez un code de salle"
+  },
+  "games": {
+    "truth-or-dare": "Action ou Vérité",
+    "never-have-i-ever": "Je n'ai jamais",
+    "picolo": "Picolo",
+    "palmier": "Palmier"
+  },
+  "lobby": {
+    "heading": "Salon",
+    "roomCode": "Code de salle :",
+    "game": "Jeu :",
+    "players": "Joueurs",
+    "host": "(hôte)",
+    "addPlayer": "+ Ajouter",
+    "playerNamePlaceholder": "Nom du joueur",
+    "startGame": "Démarrer la partie",
+    "needMorePlayers": "Ajoutez au moins 2 joueurs pour commencer.",
+    "waiting": "En attente du lancement par l'hôte…"
+  },
+  "game": {
+    "comingSoon": "Logique de jeu à venir…",
+    "room": "Salle :"
+  },
+  "tod": {
+    "passPhone": "Passe le téléphone à {{name}}",
+    "choose": "Choisis :",
+    "truth": "Vérité",
+    "dare": "Action",
+    "next": "Joueur suivant",
+    "players": "Joueurs"
+  },
+  "palmier": {
+    "draw": "Tirer une carte",
+    "remaining": "{{count}} cartes restantes",
+    "deckEmpty": "Le paquet est vide !",
+    "activeRules": "Règles actives",
+    "kingRulePlaceholder": "Écris la règle…",
+    "kingRuleSubmit": "Valider",
+    "suits": { "red": "rouge", "black": "noir" }
+  },
+  "picolo": {
+    "next": "Carte suivante",
+    "types": {
+      "solo": "Solo",
+      "duo": "Duo",
+      "group": "Groupe",
+      "challenge": "Défi"
+    }
+  },
+  "nhie": {
+    "neverHaveIEver": "Je n'ai jamais",
+    "iHave": "Je l'ai fait 👇",
+    "iHavent": "Jamais ✋",
+    "voted": "{{count}}/{{total}} ont voté",
+    "waitingVote": "En attente des votes…",
+    "results": "Résultats",
+    "hasDone": "l'a fait",
+    "hasnt": "jamais",
+    "fingers": "doigts",
+    "next": "Énoncé suivant",
+    "waitingNext": "En attente que {{name}} continue…",
+    "players": "Joueurs",
+    "out": "éliminé·e"
+  },
+  "lang": {
+    "switchTo": "EN"
+  }
+}

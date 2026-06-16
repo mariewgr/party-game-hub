@@ -1,0 +1,83 @@
+{
+  "appTitle": "Party Game Hub",
+  "yourName": "Your name",
+  "createRoom": {
+    "heading": "Create a room",
+    "button": "Create Room"
+  },
+  "joinRoom": {
+    "heading": "Join a room",
+    "roomCode": "Room code",
+    "button": "Join Room"
+  },
+  "errors": {
+    "enterName": "Enter your name",
+    "enterRoomCode": "Enter a room code"
+  },
+  "games": {
+    "truth-or-dare": "Truth or Dare",
+    "never-have-i-ever": "Never Have I Ever",
+    "picolo": "Picolo",
+    "palmier": "Palmier"
+  },
+  "lobby": {
+    "heading": "Lobby",
+    "roomCode": "Room code:",
+    "game": "Game:",
+    "players": "Players",
+    "host": "(host)",
+    "addPlayer": "+ Add",
+    "playerNamePlaceholder": "Player name",
+    "startGame": "Start Game",
+    "needMorePlayers": "Add at least 2 players to start.",
+    "waiting": "Waiting for host to start…"
+  },
+  "game": {
+    "comingSoon": "Game logic coming soon…",
+    "room": "Room:"
+  },
+  "tod": {
+    "passPhone": "Pass the phone to {{name}}",
+    "choose": "Choose:",
+    "truth": "Truth",
+    "dare": "Dare",
+    "next": "Next player",
+    "players": "Players"
+  },
+  "palmier": {
+    "draw": "Draw a card",
+    "remaining": "{{count}} cards left",
+    "deckEmpty": "The deck is empty!",
+    "activeRules": "Active rules",
+    "kingRulePlaceholder": "Type the rule…",
+    "kingRuleSubmit": "Set rule",
+    "suits": { "red": "red", "black": "black" }
+  },
+  "picolo": {
+    "next": "Next card",
+    "types": {
+      "solo": "Solo",
+      "duo": "Duo",
+      "group": "Group",
+      "challenge": "Challenge"
+    }
+  },
+  "nhie": {
+    "neverHaveIEver": "Never have I ever",
+    "iHave": "I have 👇",
+    "iHavent": "I haven't ✋",
+    "voted": "{{count}}/{{total}} voted",
+    "waitingVote": "Waiting for everyone to vote…",
+    "results": "Results",
+    "hasDone": "has done it",
+    "hasnt": "hasn't",
+    "fingers": "fingers",
+    "next": "Next statement",
+    "waitingNext": "Waiting for {{name}} to continue…",
+    "players": "Players",
+    "out": "out"
+  },
+  "lang": {
+    "switchTo": "FR"
+  }
+}
