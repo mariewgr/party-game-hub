@@ -8,6 +8,7 @@ const GAME_EMOJI = {
   'never-have-i-ever': '✋',
   'picolo': '🍺',
   'palmier': '🃏',
+  'most-likely-to': '👆',
 };
 
 function initials(name) {

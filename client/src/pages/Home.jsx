@@ -8,12 +8,13 @@ const GAMES = [
   { id: 'never-have-i-ever', emoji: '✋' },
   { id: 'picolo',           emoji: '🍺' },
   { id: 'palmier',          emoji: '🃏' },
+  { id: 'most-likely-to',   emoji: '👆' },
 ];
 
 export default function Home() {
   const navigate = useNavigate();
   const { t } = useTranslation();
-  const [playerName, setPlayerName] = useState('');
+  const [playerName, setPlayerName] = useState(() => localStorage.getItem('playerName') ?? '');
   const [roomCode, setRoomCode] = useState('');
   const [selectedGame, setSelectedGame] = useState(GAMES[0].id);
   const [error, setError] = useState('');
@@ -62,7 +63,7 @@ export default function Home() {
         <input
           placeholder={t('yourName')}
           value={playerName}
-          onChange={(e) => { setPlayerName(e.target.value); setError(''); }}
+          onChange={(e) => { setPlayerName(e.target.value); localStorage.setItem('playerName', e.target.value); setError(''); }}
           onKeyDown={(e) => e.key === 'Enter' && createRoom()}
           style={inputStyle}
         />

@@ -6,12 +6,14 @@ import TruthOrDare from '../games/TruthOrDare';
 import NeverHaveIEver from '../games/NeverHaveIEver';
 import Picolo from '../games/Picolo';
 import Palmier from '../games/Palmier';
+import MostLikelyTo from '../games/MostLikelyTo';
 
 const GAME_EMOJI = {
   'truth-or-dare': '🎯',
   'never-have-i-ever': '✋',
   'picolo': '🍺',
   'palmier': '🃏',
+  'most-likely-to': '👆',
 };
 
 export default function Game() {
@@ -65,7 +67,10 @@ export default function Game() {
         {gameId === 'palmier' && (
           <Palmier initialState={initialState.palmier} />
         )}
-        {!['truth-or-dare', 'never-have-i-ever', 'picolo', 'palmier'].includes(gameId) && (
+        {gameId === 'most-likely-to' && (
+          <MostLikelyTo players={players} initialState={initialState.mlt} />
+        )}
+        {!['truth-or-dare', 'never-have-i-ever', 'picolo', 'palmier', 'most-likely-to'].includes(gameId) && (
           <p style={{ color: '#9ca3af', textAlign: 'center' }}>{t('game.comingSoon')}</p>
         )}
       </div>

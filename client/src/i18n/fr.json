@@ -18,7 +18,8 @@
     "truth-or-dare": "Action ou Vérité",
     "never-have-i-ever": "Je n'ai jamais",
     "picolo": "Picolo",
-    "palmier": "Palmier"
+    "palmier": "Palmier",
+    "most-likely-to": "Le plus susceptible de"
   },
   "lobby": {
     "heading": "Salon",
@@ -75,6 +76,11 @@
     "next": "Énoncé suivant",
     "currentPlayer": "Joueur actuel",
     "players": "Joueurs"
+  },
+  "mlt": {
+    "mostLikelyTo": "Le plus susceptible de…",
+    "instruction": "Pointez la personne la plus susceptible — celle qui a le plus de doigts pointés sur elle boit !",
+    "next": "Suivant"
   },
   "lang": {
     "switchTo": "EN"

@@ -18,7 +18,8 @@
     "truth-or-dare": "Truth or Dare",
     "never-have-i-ever": "Never Have I Ever",
     "picolo": "Picolo",
-    "palmier": "Palmier"
+    "palmier": "Palmier",
+    "most-likely-to": "Most Likely To"
   },
   "lobby": {
     "heading": "Lobby",
@@ -75,6 +76,11 @@
     "next": "Next statement",
     "currentPlayer": "Current player",
     "players": "Players"
+  },
+  "mlt": {
+    "mostLikelyTo": "Most likely to…",
+    "instruction": "Point at the person most likely to — the one with the most fingers pointed at them drinks!",
+    "next": "Next"
   },
   "lang": {
     "switchTo": "FR"
